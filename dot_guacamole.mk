@@ -14,7 +14,7 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
-WITH_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
 EXTRA_FOD_ANIMATIONS := true
 
