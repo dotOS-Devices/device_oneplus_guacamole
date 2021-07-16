@@ -11,8 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamole device
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1440
+WITH_GAPPS := true
+TARGET_SUPPORTS_BLUR := true
+EXTRA_FOD_ANIMATIONS := true
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1440
@@ -40,5 +45,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 1909110008 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
-
- EXTRA_FOD_ANIMATIONS := true
