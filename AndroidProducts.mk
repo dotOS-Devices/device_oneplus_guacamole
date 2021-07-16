@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/dot_guacamole.mk
+    
+    COMMON_LUNCH_CHOICES := \
+	dot_guacamole-user \
+	dot_guacamole-userdebug \
+	dot_guacamole-eng
