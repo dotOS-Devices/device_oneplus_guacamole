@@ -35,9 +35,13 @@ TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7Pro/OnePlus7Pro:11/RKQ1.201022.002/2105071634:user/release-keys"
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7Pro \
     PRODUCT_NAME=OnePlus7Pro
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210705.001-7380771 release-keys"
+    
+PRODUCT_OVERRIDE_INFO := true
+PRODUCT_OVERRIDE_FINGERPRINT :=  google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
     
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
