@@ -6,7 +6,7 @@
    {
       "repository":"vendor_oneplus_guacamole",
       "target_path":"vendor/oneplus/guacamole",
-      "branch":"dot11",
-      "remote":"dotos-devices-gitlab"
+      "branch":"eleven-wip",
+      "remote":"github"
   }
 ]
