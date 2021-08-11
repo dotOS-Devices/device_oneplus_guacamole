@@ -6,7 +6,6 @@
    {
       "repository":"vendor_oneplus_guacamole",
       "target_path":"vendor/oneplus/guacamole",
-      "branch":"eleven-wip",
-      "remote":"github"
+      "branch":"eleven-wip"
   }
 ]
